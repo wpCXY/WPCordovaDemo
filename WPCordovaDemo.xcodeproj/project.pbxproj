@@ -653,7 +653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7X2ADVHLRN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/wangpeng/SwiftDemo/WPCordovaDemo/WPCordovaDemo/Cordova/WPPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WPCordovaDemo/Cordova/WPPrefixHeader.pch";
 				INFOPLIST_FILE = WPCordovaDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -668,7 +668,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7X2ADVHLRN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/wangpeng/SwiftDemo/WPCordovaDemo/WPCordovaDemo/Cordova/WPPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WPCordovaDemo/Cordova/WPPrefixHeader.pch";
 				INFOPLIST_FILE = WPCordovaDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -746,6 +746,7 @@
 				AABBA7AE1F3D95C1008DDCB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AABBA7AF1F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -754,6 +755,7 @@
 				AABBA7B11F3D95C1008DDCB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AABBA7B21F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +764,7 @@
 				AABBA7B41F3D95C1008DDCB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
