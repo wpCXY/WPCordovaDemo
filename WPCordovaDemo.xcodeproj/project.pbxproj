@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABBA7841F3D95C0008DDCB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7831F3D95C0008DDCB6 /* main.m */; };
+		AABBA7871F3D95C0008DDCB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7861F3D95C0008DDCB6 /* AppDelegate.m */; };
+		AABBA78A1F3D95C0008DDCB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7891F3D95C0008DDCB6 /* ViewController.m */; };
+		AABBA78D1F3D95C0008DDCB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABBA78B1F3D95C0008DDCB6 /* Main.storyboard */; };
+		AABBA78F1F3D95C0008DDCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABBA78E1F3D95C0008DDCB6 /* Assets.xcassets */; };
+		AABBA7921F3D95C0008DDCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7901F3D95C0008DDCB6 /* LaunchScreen.storyboard */; };
+		AABBA79D1F3D95C0008DDCB6 /* WPCordovaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA79C1F3D95C0008DDCB6 /* WPCordovaDemoTests.m */; };
+		AABBA7A81F3D95C0008DDCB6 /* WPCordovaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7A71F3D95C0008DDCB6 /* WPCordovaDemoUITests.m */; };
+		AABBA7BF1F3D95DC008DDCB6 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7B61F3D95DC008DDCB6 /* config.xml */; };
+		AABBA7C01F3D95DC008DDCB6 /* cordova.js in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7B71F3D95DC008DDCB6 /* cordova.js */; };
+		AABBA7C11F3D95DC008DDCB6 /* cordova_plugins.js in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7B81F3D95DC008DDCB6 /* cordova_plugins.js */; };
+		AABBA7C21F3D95DC008DDCB6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7BB1F3D95DC008DDCB6 /* index.html */; };
+		AABBA7C31F3D95DC008DDCB6 /* calendar.js in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7BD1F3D95DC008DDCB6 /* calendar.js */; };
+		AABBA7C41F3D95DC008DDCB6 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = AABBA7BE1F3D95DC008DDCB6 /* index.js */; };
+		AABBA7F71F3D95E3008DDCB6 /* CDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7CB1F3D95E3008DDCB6 /* CDVCommandDelegateImpl.m */; };
+		AABBA7F81F3D95E3008DDCB6 /* CDVCommandQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7CD1F3D95E3008DDCB6 /* CDVCommandQueue.m */; };
+		AABBA7F91F3D95E3008DDCB6 /* CDVConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7CF1F3D95E3008DDCB6 /* CDVConfigParser.m */; };
+		AABBA7FA1F3D95E3008DDCB6 /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7D21F3D95E3008DDCB6 /* CDVInvokedUrlCommand.m */; };
+		AABBA7FB1F3D95E3008DDCB6 /* CDVJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7D41F3D95E3008DDCB6 /* CDVJSON.m */; };
+		AABBA7FC1F3D95E3008DDCB6 /* CDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7D61F3D95E3008DDCB6 /* CDVLocalStorage.m */; };
+		AABBA7FD1F3D95E3008DDCB6 /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7D81F3D95E3008DDCB6 /* CDVPlugin.m */; };
+		AABBA7FE1F3D95E3008DDCB6 /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7DA1F3D95E3008DDCB6 /* CDVPluginResult.m */; };
+		AABBA7FF1F3D95E3008DDCB6 /* CDVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7DE1F3D95E3008DDCB6 /* CDVTimer.m */; };
+		AABBA8001F3D95E3008DDCB6 /* CDVURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7E01F3D95E3008DDCB6 /* CDVURLProtocol.m */; };
+		AABBA8011F3D95E3008DDCB6 /* CDVUserAgentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7E21F3D95E3008DDCB6 /* CDVUserAgentUtil.m */; };
+		AABBA8021F3D95E3008DDCB6 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7E41F3D95E3008DDCB6 /* CDVViewController.m */; };
+		AABBA8031F3D95E3008DDCB6 /* CDVWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7E61F3D95E3008DDCB6 /* CDVWebViewDelegate.m */; };
+		AABBA8041F3D95E3008DDCB6 /* CDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7E81F3D95E3008DDCB6 /* CDVWhitelist.m */; };
+		AABBA8051F3D95E3008DDCB6 /* NSArray+Comparisons.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7EA1F3D95E3008DDCB6 /* NSArray+Comparisons.m */; };
+		AABBA8061F3D95E3008DDCB6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7EC1F3D95E3008DDCB6 /* NSData+Base64.m */; };
+		AABBA8071F3D95E3008DDCB6 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7EE1F3D95E3008DDCB6 /* NSDictionary+Extensions.m */; };
+		AABBA8081F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7F01F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.m */; };
+		AABBA8091F3D95E3008DDCB6 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7F21F3D95E3008DDCB6 /* UIDevice+Extensions.m */; };
+		AABBA80A1F3D95E3008DDCB6 /* WPCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA7F41F3D95E3008DDCB6 /* WPCDVPlugin.m */; };
+		AABBA80E1F3D95EA008DDCB6 /* WPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBA80D1F3D95EA008DDCB6 /* WPWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AABBA7991F3D95C0008DDCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABBA7771F3D95C0008DDCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBA77E1F3D95C0008DDCB6;
+			remoteInfo = WPCordovaDemo;
+		};
+		AABBA7A41F3D95C0008DDCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABBA7771F3D95C0008DDCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBA77E1F3D95C0008DDCB6;
+			remoteInfo = WPCordovaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AABBA77F1F3D95C0008DDCB6 /* WPCordovaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPCordovaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBA7831F3D95C0008DDCB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABBA7851F3D95C0008DDCB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AABBA7861F3D95C0008DDCB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AABBA7881F3D95C0008DDCB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AABBA7891F3D95C0008DDCB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AABBA78C1F3D95C0008DDCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AABBA78E1F3D95C0008DDCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AABBA7911F3D95C0008DDCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AABBA7931F3D95C0008DDCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABBA7981F3D95C0008DDCB6 /* WPCordovaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPCordovaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBA79C1F3D95C0008DDCB6 /* WPCordovaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPCordovaDemoTests.m; sourceTree = "<group>"; };
+		AABBA79E1F3D95C0008DDCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABBA7A31F3D95C0008DDCB6 /* WPCordovaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPCordovaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBA7A71F3D95C0008DDCB6 /* WPCordovaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPCordovaDemoUITests.m; sourceTree = "<group>"; };
+		AABBA7A91F3D95C0008DDCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABBA7B61F3D95DC008DDCB6 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		AABBA7B71F3D95DC008DDCB6 /* cordova.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
+		AABBA7B81F3D95DC008DDCB6 /* cordova_plugins.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cordova_plugins.js; sourceTree = "<group>"; };
+		AABBA7BB1F3D95DC008DDCB6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AABBA7BD1F3D95DC008DDCB6 /* calendar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calendar.js; sourceTree = "<group>"; };
+		AABBA7BE1F3D95DC008DDCB6 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		AABBA7C71F3D95E3008DDCB6 /* CDV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDV.h; sourceTree = "<group>"; };
+		AABBA7C81F3D95E3008DDCB6 /* CDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailability.h; sourceTree = "<group>"; };
+		AABBA7C91F3D95E3008DDCB6 /* CDVCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegate.h; sourceTree = "<group>"; };
+		AABBA7CA1F3D95E3008DDCB6 /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		AABBA7CB1F3D95E3008DDCB6 /* CDVCommandDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandDelegateImpl.m; sourceTree = "<group>"; };
+		AABBA7CC1F3D95E3008DDCB6 /* CDVCommandQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandQueue.h; sourceTree = "<group>"; };
+		AABBA7CD1F3D95E3008DDCB6 /* CDVCommandQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandQueue.m; sourceTree = "<group>"; };
+		AABBA7CE1F3D95E3008DDCB6 /* CDVConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVConfigParser.h; sourceTree = "<group>"; };
+		AABBA7CF1F3D95E3008DDCB6 /* CDVConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVConfigParser.m; sourceTree = "<group>"; };
+		AABBA7D01F3D95E3008DDCB6 /* CDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebug.h; sourceTree = "<group>"; };
+		AABBA7D11F3D95E3008DDCB6 /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		AABBA7D21F3D95E3008DDCB6 /* CDVInvokedUrlCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVInvokedUrlCommand.m; sourceTree = "<group>"; };
+		AABBA7D31F3D95E3008DDCB6 /* CDVJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVJSON.h; sourceTree = "<group>"; };
+		AABBA7D41F3D95E3008DDCB6 /* CDVJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVJSON.m; sourceTree = "<group>"; };
+		AABBA7D51F3D95E3008DDCB6 /* CDVLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLocalStorage.h; sourceTree = "<group>"; };
+		AABBA7D61F3D95E3008DDCB6 /* CDVLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLocalStorage.m; sourceTree = "<group>"; };
+		AABBA7D71F3D95E3008DDCB6 /* CDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
+		AABBA7D81F3D95E3008DDCB6 /* CDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPlugin.m; sourceTree = "<group>"; };
+		AABBA7D91F3D95E3008DDCB6 /* CDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
+		AABBA7DA1F3D95E3008DDCB6 /* CDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
+		AABBA7DB1F3D95E3008DDCB6 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		AABBA7DC1F3D95E3008DDCB6 /* CDVShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVShared.h; sourceTree = "<group>"; };
+		AABBA7DD1F3D95E3008DDCB6 /* CDVTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVTimer.h; sourceTree = "<group>"; };
+		AABBA7DE1F3D95E3008DDCB6 /* CDVTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVTimer.m; sourceTree = "<group>"; };
+		AABBA7DF1F3D95E3008DDCB6 /* CDVURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocol.h; sourceTree = "<group>"; };
+		AABBA7E01F3D95E3008DDCB6 /* CDVURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVURLProtocol.m; sourceTree = "<group>"; };
+		AABBA7E11F3D95E3008DDCB6 /* CDVUserAgentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUserAgentUtil.h; sourceTree = "<group>"; };
+		AABBA7E21F3D95E3008DDCB6 /* CDVUserAgentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUserAgentUtil.m; sourceTree = "<group>"; };
+		AABBA7E31F3D95E3008DDCB6 /* CDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		AABBA7E41F3D95E3008DDCB6 /* CDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		AABBA7E51F3D95E3008DDCB6 /* CDVWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWebViewDelegate.h; sourceTree = "<group>"; };
+		AABBA7E61F3D95E3008DDCB6 /* CDVWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVWebViewDelegate.m; sourceTree = "<group>"; };
+		AABBA7E71F3D95E3008DDCB6 /* CDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWhitelist.h; sourceTree = "<group>"; };
+		AABBA7E81F3D95E3008DDCB6 /* CDVWhitelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVWhitelist.m; sourceTree = "<group>"; };
+		AABBA7E91F3D95E3008DDCB6 /* NSArray+Comparisons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		AABBA7EA1F3D95E3008DDCB6 /* NSArray+Comparisons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Comparisons.m"; sourceTree = "<group>"; };
+		AABBA7EB1F3D95E3008DDCB6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		AABBA7EC1F3D95E3008DDCB6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		AABBA7ED1F3D95E3008DDCB6 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		AABBA7EE1F3D95E3008DDCB6 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
+		AABBA7EF1F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		AABBA7F01F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		AABBA7F11F3D95E3008DDCB6 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		AABBA7F21F3D95E3008DDCB6 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		AABBA7F31F3D95E3008DDCB6 /* WPCDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCDVPlugin.h; sourceTree = "<group>"; };
+		AABBA7F41F3D95E3008DDCB6 /* WPCDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCDVPlugin.m; sourceTree = "<group>"; };
+		AABBA7F51F3D95E3008DDCB6 /* WPCordovaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCordovaDelegate.h; sourceTree = "<group>"; };
+		AABBA7F61F3D95E3008DDCB6 /* WPPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPrefixHeader.pch; sourceTree = "<group>"; };
+		AABBA80C1F3D95EA008DDCB6 /* WPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWebViewController.h; sourceTree = "<group>"; };
+		AABBA80D1F3D95EA008DDCB6 /* WPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABBA77C1F3D95C0008DDCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBA7951F3D95C0008DDCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBA7A01F3D95C0008DDCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABBA7761F3D95C0008DDCB6 = {
+			isa = PBXGroup;
+			children = (
+				AABBA7811F3D95C0008DDCB6 /* WPCordovaDemo */,
+				AABBA79B1F3D95C0008DDCB6 /* WPCordovaDemoTests */,
+				AABBA7A61F3D95C0008DDCB6 /* WPCordovaDemoUITests */,
+				AABBA7801F3D95C0008DDCB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABBA7801F3D95C0008DDCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA77F1F3D95C0008DDCB6 /* WPCordovaDemo.app */,
+				AABBA7981F3D95C0008DDCB6 /* WPCordovaDemoTests.xctest */,
+				AABBA7A31F3D95C0008DDCB6 /* WPCordovaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABBA7811F3D95C0008DDCB6 /* WPCordovaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7B51F3D95DC008DDCB6 /* H5 */,
+				AABBA7C51F3D95E3008DDCB6 /* Cordova */,
+				AABBA80B1F3D95EA008DDCB6 /* WebViewController */,
+				AABBA7851F3D95C0008DDCB6 /* AppDelegate.h */,
+				AABBA7861F3D95C0008DDCB6 /* AppDelegate.m */,
+				AABBA7881F3D95C0008DDCB6 /* ViewController.h */,
+				AABBA7891F3D95C0008DDCB6 /* ViewController.m */,
+				AABBA78B1F3D95C0008DDCB6 /* Main.storyboard */,
+				AABBA78E1F3D95C0008DDCB6 /* Assets.xcassets */,
+				AABBA7901F3D95C0008DDCB6 /* LaunchScreen.storyboard */,
+				AABBA7931F3D95C0008DDCB6 /* Info.plist */,
+				AABBA7821F3D95C0008DDCB6 /* Supporting Files */,
+			);
+			path = WPCordovaDemo;
+			sourceTree = "<group>";
+		};
+		AABBA7821F3D95C0008DDCB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7831F3D95C0008DDCB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AABBA79B1F3D95C0008DDCB6 /* WPCordovaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA79C1F3D95C0008DDCB6 /* WPCordovaDemoTests.m */,
+				AABBA79E1F3D95C0008DDCB6 /* Info.plist */,
+			);
+			path = WPCordovaDemoTests;
+			sourceTree = "<group>";
+		};
+		AABBA7A61F3D95C0008DDCB6 /* WPCordovaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7A71F3D95C0008DDCB6 /* WPCordovaDemoUITests.m */,
+				AABBA7A91F3D95C0008DDCB6 /* Info.plist */,
+			);
+			path = WPCordovaDemoUITests;
+			sourceTree = "<group>";
+		};
+		AABBA7B51F3D95DC008DDCB6 /* H5 */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7B61F3D95DC008DDCB6 /* config.xml */,
+				AABBA7B71F3D95DC008DDCB6 /* cordova.js */,
+				AABBA7B81F3D95DC008DDCB6 /* cordova_plugins.js */,
+				AABBA7B91F3D95DC008DDCB6 /* css */,
+				AABBA7BA1F3D95DC008DDCB6 /* image */,
+				AABBA7BB1F3D95DC008DDCB6 /* index.html */,
+				AABBA7BC1F3D95DC008DDCB6 /* js */,
+			);
+			path = H5;
+			sourceTree = "<group>";
+		};
+		AABBA7B91F3D95DC008DDCB6 /* css */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		AABBA7BA1F3D95DC008DDCB6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		AABBA7BC1F3D95DC008DDCB6 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7BD1F3D95DC008DDCB6 /* calendar.js */,
+				AABBA7BE1F3D95DC008DDCB6 /* index.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		AABBA7C51F3D95E3008DDCB6 /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7C61F3D95E3008DDCB6 /* Classes */,
+				AABBA7F31F3D95E3008DDCB6 /* WPCDVPlugin.h */,
+				AABBA7F41F3D95E3008DDCB6 /* WPCDVPlugin.m */,
+				AABBA7F51F3D95E3008DDCB6 /* WPCordovaDelegate.h */,
+				AABBA7F61F3D95E3008DDCB6 /* WPPrefixHeader.pch */,
+			);
+			path = Cordova;
+			sourceTree = "<group>";
+		};
+		AABBA7C61F3D95E3008DDCB6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA7C71F3D95E3008DDCB6 /* CDV.h */,
+				AABBA7C81F3D95E3008DDCB6 /* CDVAvailability.h */,
+				AABBA7C91F3D95E3008DDCB6 /* CDVCommandDelegate.h */,
+				AABBA7CA1F3D95E3008DDCB6 /* CDVCommandDelegateImpl.h */,
+				AABBA7CB1F3D95E3008DDCB6 /* CDVCommandDelegateImpl.m */,
+				AABBA7CC1F3D95E3008DDCB6 /* CDVCommandQueue.h */,
+				AABBA7CD1F3D95E3008DDCB6 /* CDVCommandQueue.m */,
+				AABBA7CE1F3D95E3008DDCB6 /* CDVConfigParser.h */,
+				AABBA7CF1F3D95E3008DDCB6 /* CDVConfigParser.m */,
+				AABBA7D01F3D95E3008DDCB6 /* CDVDebug.h */,
+				AABBA7D11F3D95E3008DDCB6 /* CDVInvokedUrlCommand.h */,
+				AABBA7D21F3D95E3008DDCB6 /* CDVInvokedUrlCommand.m */,
+				AABBA7D31F3D95E3008DDCB6 /* CDVJSON.h */,
+				AABBA7D41F3D95E3008DDCB6 /* CDVJSON.m */,
+				AABBA7D51F3D95E3008DDCB6 /* CDVLocalStorage.h */,
+				AABBA7D61F3D95E3008DDCB6 /* CDVLocalStorage.m */,
+				AABBA7D71F3D95E3008DDCB6 /* CDVPlugin.h */,
+				AABBA7D81F3D95E3008DDCB6 /* CDVPlugin.m */,
+				AABBA7D91F3D95E3008DDCB6 /* CDVPluginResult.h */,
+				AABBA7DA1F3D95E3008DDCB6 /* CDVPluginResult.m */,
+				AABBA7DB1F3D95E3008DDCB6 /* CDVScreenOrientationDelegate.h */,
+				AABBA7DC1F3D95E3008DDCB6 /* CDVShared.h */,
+				AABBA7DD1F3D95E3008DDCB6 /* CDVTimer.h */,
+				AABBA7DE1F3D95E3008DDCB6 /* CDVTimer.m */,
+				AABBA7DF1F3D95E3008DDCB6 /* CDVURLProtocol.h */,
+				AABBA7E01F3D95E3008DDCB6 /* CDVURLProtocol.m */,
+				AABBA7E11F3D95E3008DDCB6 /* CDVUserAgentUtil.h */,
+				AABBA7E21F3D95E3008DDCB6 /* CDVUserAgentUtil.m */,
+				AABBA7E31F3D95E3008DDCB6 /* CDVViewController.h */,
+				AABBA7E41F3D95E3008DDCB6 /* CDVViewController.m */,
+				AABBA7E51F3D95E3008DDCB6 /* CDVWebViewDelegate.h */,
+				AABBA7E61F3D95E3008DDCB6 /* CDVWebViewDelegate.m */,
+				AABBA7E71F3D95E3008DDCB6 /* CDVWhitelist.h */,
+				AABBA7E81F3D95E3008DDCB6 /* CDVWhitelist.m */,
+				AABBA7E91F3D95E3008DDCB6 /* NSArray+Comparisons.h */,
+				AABBA7EA1F3D95E3008DDCB6 /* NSArray+Comparisons.m */,
+				AABBA7EB1F3D95E3008DDCB6 /* NSData+Base64.h */,
+				AABBA7EC1F3D95E3008DDCB6 /* NSData+Base64.m */,
+				AABBA7ED1F3D95E3008DDCB6 /* NSDictionary+Extensions.h */,
+				AABBA7EE1F3D95E3008DDCB6 /* NSDictionary+Extensions.m */,
+				AABBA7EF1F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.h */,
+				AABBA7F01F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.m */,
+				AABBA7F11F3D95E3008DDCB6 /* UIDevice+Extensions.h */,
+				AABBA7F21F3D95E3008DDCB6 /* UIDevice+Extensions.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AABBA80B1F3D95EA008DDCB6 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AABBA80C1F3D95EA008DDCB6 /* WPWebViewController.h */,
+				AABBA80D1F3D95EA008DDCB6 /* WPWebViewController.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABBA77E1F3D95C0008DDCB6 /* WPCordovaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBA7AC1F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemo" */;
+			buildPhases = (
+				AABBA77B1F3D95C0008DDCB6 /* Sources */,
+				AABBA77C1F3D95C0008DDCB6 /* Frameworks */,
+				AABBA77D1F3D95C0008DDCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPCordovaDemo;
+			productName = WPCordovaDemo;
+			productReference = AABBA77F1F3D95C0008DDCB6 /* WPCordovaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AABBA7971F3D95C0008DDCB6 /* WPCordovaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBA7AF1F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemoTests" */;
+			buildPhases = (
+				AABBA7941F3D95C0008DDCB6 /* Sources */,
+				AABBA7951F3D95C0008DDCB6 /* Frameworks */,
+				AABBA7961F3D95C0008DDCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AABBA79A1F3D95C0008DDCB6 /* PBXTargetDependency */,
+			);
+			name = WPCordovaDemoTests;
+			productName = WPCordovaDemoTests;
+			productReference = AABBA7981F3D95C0008DDCB6 /* WPCordovaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AABBA7A21F3D95C0008DDCB6 /* WPCordovaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBA7B21F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemoUITests" */;
+			buildPhases = (
+				AABBA79F1F3D95C0008DDCB6 /* Sources */,
+				AABBA7A01F3D95C0008DDCB6 /* Frameworks */,
+				AABBA7A11F3D95C0008DDCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AABBA7A51F3D95C0008DDCB6 /* PBXTargetDependency */,
+			);
+			name = WPCordovaDemoUITests;
+			productName = WPCordovaDemoUITests;
+			productReference = AABBA7A31F3D95C0008DDCB6 /* WPCordovaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABBA7771F3D95C0008DDCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王鹏";
+				TargetAttributes = {
+					AABBA77E1F3D95C0008DDCB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+					};
+					AABBA7971F3D95C0008DDCB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AABBA77E1F3D95C0008DDCB6;
+					};
+					AABBA7A21F3D95C0008DDCB6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7X2ADVHLRN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AABBA77E1F3D95C0008DDCB6;
+					};
+				};
+			};
+			buildConfigurationList = AABBA77A1F3D95C0008DDCB6 /* Build configuration list for PBXProject "WPCordovaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABBA7761F3D95C0008DDCB6;
+			productRefGroup = AABBA7801F3D95C0008DDCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABBA77E1F3D95C0008DDCB6 /* WPCordovaDemo */,
+				AABBA7971F3D95C0008DDCB6 /* WPCordovaDemoTests */,
+				AABBA7A21F3D95C0008DDCB6 /* WPCordovaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABBA77D1F3D95C0008DDCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBA7C41F3D95DC008DDCB6 /* index.js in Resources */,
+				AABBA7C31F3D95DC008DDCB6 /* calendar.js in Resources */,
+				AABBA7C21F3D95DC008DDCB6 /* index.html in Resources */,
+				AABBA7921F3D95C0008DDCB6 /* LaunchScreen.storyboard in Resources */,
+				AABBA78F1F3D95C0008DDCB6 /* Assets.xcassets in Resources */,
+				AABBA78D1F3D95C0008DDCB6 /* Main.storyboard in Resources */,
+				AABBA7BF1F3D95DC008DDCB6 /* config.xml in Resources */,
+				AABBA7C11F3D95DC008DDCB6 /* cordova_plugins.js in Resources */,
+				AABBA7C01F3D95DC008DDCB6 /* cordova.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBA7961F3D95C0008DDCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBA7A11F3D95C0008DDCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABBA77B1F3D95C0008DDCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBA8061F3D95E3008DDCB6 /* NSData+Base64.m in Sources */,
+				AABBA8031F3D95E3008DDCB6 /* CDVWebViewDelegate.m in Sources */,
+				AABBA8051F3D95E3008DDCB6 /* NSArray+Comparisons.m in Sources */,
+				AABBA8041F3D95E3008DDCB6 /* CDVWhitelist.m in Sources */,
+				AABBA80E1F3D95EA008DDCB6 /* WPWebViewController.m in Sources */,
+				AABBA7FE1F3D95E3008DDCB6 /* CDVPluginResult.m in Sources */,
+				AABBA7F71F3D95E3008DDCB6 /* CDVCommandDelegateImpl.m in Sources */,
+				AABBA7F81F3D95E3008DDCB6 /* CDVCommandQueue.m in Sources */,
+				AABBA8091F3D95E3008DDCB6 /* UIDevice+Extensions.m in Sources */,
+				AABBA8001F3D95E3008DDCB6 /* CDVURLProtocol.m in Sources */,
+				AABBA8011F3D95E3008DDCB6 /* CDVUserAgentUtil.m in Sources */,
+				AABBA78A1F3D95C0008DDCB6 /* ViewController.m in Sources */,
+				AABBA7FB1F3D95E3008DDCB6 /* CDVJSON.m in Sources */,
+				AABBA8021F3D95E3008DDCB6 /* CDVViewController.m in Sources */,
+				AABBA7FD1F3D95E3008DDCB6 /* CDVPlugin.m in Sources */,
+				AABBA8081F3D95E3008DDCB6 /* NSMutableArray+QueueAdditions.m in Sources */,
+				AABBA7871F3D95C0008DDCB6 /* AppDelegate.m in Sources */,
+				AABBA7FF1F3D95E3008DDCB6 /* CDVTimer.m in Sources */,
+				AABBA80A1F3D95E3008DDCB6 /* WPCDVPlugin.m in Sources */,
+				AABBA7FA1F3D95E3008DDCB6 /* CDVInvokedUrlCommand.m in Sources */,
+				AABBA7F91F3D95E3008DDCB6 /* CDVConfigParser.m in Sources */,
+				AABBA7841F3D95C0008DDCB6 /* main.m in Sources */,
+				AABBA8071F3D95E3008DDCB6 /* NSDictionary+Extensions.m in Sources */,
+				AABBA7FC1F3D95E3008DDCB6 /* CDVLocalStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBA7941F3D95C0008DDCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBA79D1F3D95C0008DDCB6 /* WPCordovaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBA79F1F3D95C0008DDCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBA7A81F3D95C0008DDCB6 /* WPCordovaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AABBA79A1F3D95C0008DDCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBA77E1F3D95C0008DDCB6 /* WPCordovaDemo */;
+			targetProxy = AABBA7991F3D95C0008DDCB6 /* PBXContainerItemProxy */;
+		};
+		AABBA7A51F3D95C0008DDCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBA77E1F3D95C0008DDCB6 /* WPCordovaDemo */;
+			targetProxy = AABBA7A41F3D95C0008DDCB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AABBA78B1F3D95C0008DDCB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABBA78C1F3D95C0008DDCB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AABBA7901F3D95C0008DDCB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABBA7911F3D95C0008DDCB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABBA7AA1F3D95C1008DDCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AABBA7AB1F3D95C1008DDCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABBA7AD1F3D95C1008DDCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wangpeng/SwiftDemo/WPCordovaDemo/WPCordovaDemo/Cordova/WPPrefixHeader.pch;
+				INFOPLIST_FILE = WPCordovaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CordovaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AABBA7AE1F3D95C1008DDCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wangpeng/SwiftDemo/WPCordovaDemo/WPCordovaDemo/Cordova/WPPrefixHeader.pch;
+				INFOPLIST_FILE = WPCordovaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CordovaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AABBA7B01F3D95C1008DDCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCordovaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCordovaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPCordovaDemo.app/WPCordovaDemo";
+			};
+			name = Debug;
+		};
+		AABBA7B11F3D95C1008DDCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCordovaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCordovaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPCordovaDemo.app/WPCordovaDemo";
+			};
+			name = Release;
+		};
+		AABBA7B31F3D95C1008DDCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCordovaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCordovaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPCordovaDemo;
+			};
+			name = Debug;
+		};
+		AABBA7B41F3D95C1008DDCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7X2ADVHLRN;
+				INFOPLIST_FILE = WPCordovaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.WPCordovaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPCordovaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABBA77A1F3D95C0008DDCB6 /* Build configuration list for PBXProject "WPCordovaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBA7AA1F3D95C1008DDCB6 /* Debug */,
+				AABBA7AB1F3D95C1008DDCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABBA7AC1F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBA7AD1F3D95C1008DDCB6 /* Debug */,
+				AABBA7AE1F3D95C1008DDCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AABBA7AF1F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBA7B01F3D95C1008DDCB6 /* Debug */,
+				AABBA7B11F3D95C1008DDCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AABBA7B21F3D95C1008DDCB6 /* Build configuration list for PBXNativeTarget "WPCordovaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBA7B31F3D95C1008DDCB6 /* Debug */,
+				AABBA7B41F3D95C1008DDCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABBA7771F3D95C0008DDCB6 /* Project object */;
+}
